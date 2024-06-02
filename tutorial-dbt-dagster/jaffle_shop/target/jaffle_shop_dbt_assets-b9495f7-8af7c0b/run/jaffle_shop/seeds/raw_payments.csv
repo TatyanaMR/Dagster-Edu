@@ -1,0 +1,11 @@
+
+    
+    
+    truncate table "tutorial"."main"."raw_payments";
+    -- dbt seed --
+    
+          COPY "tutorial"."main"."raw_payments" FROM '/home/tatyana/dagster/tutorial-dbt-dagster/jaffle_shop/seeds/raw_payments.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  

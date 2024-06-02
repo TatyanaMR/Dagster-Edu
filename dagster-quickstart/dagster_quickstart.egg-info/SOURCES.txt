@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+dagster_quickstart/__init__.py
+dagster_quickstart/assets.py
+dagster_quickstart/configurations.py
+dagster_quickstart.egg-info/PKG-INFO
+dagster_quickstart.egg-info/SOURCES.txt
+dagster_quickstart.egg-info/dependency_links.txt
+dagster_quickstart.egg-info/requires.txt
+dagster_quickstart.egg-info/top_level.txt
